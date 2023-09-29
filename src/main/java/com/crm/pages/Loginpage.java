@@ -10,10 +10,6 @@ import java.io.IOException;
 public class Loginpage extends TestBaseClass {
 
     public Loginpage() throws IOException {
-        @FindBy(XPath="//*[@href=\"https://ui.freecrm.com\"]");
-        WebElement LogIn;
-        LogIn.click();
-
-
     }
 }
+
