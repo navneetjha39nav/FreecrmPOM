@@ -1,4 +1,7 @@
 package com.crm.pages;
 
-public class Loginpage {
+import com.crm.baseclass.TestBaseClass;
+
+public class Loginpage extends TestBaseClass {
+
 }
