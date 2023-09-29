@@ -28,13 +28,11 @@ public class TestBaseClass {
 
         } else if (Browser1.equals("EdgeDriver")) {
             Driver = new EdgeDriver();
-
         } else {
             System.out.println("plese select proper browser name");
         }
-
+        Driver.manage().window().maximize();
+        Driver.manage().timeouts().pageLoadTimeout(100);
+        Driver.get(Prop.getProperty("url"));
     }
 }
-
-
-
